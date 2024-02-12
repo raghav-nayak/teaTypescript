@@ -25,7 +25,7 @@
 
 
 type dbUser = {
-    readonly _id: string;  // readonly - non-editatble field once assigned
+    readonly _id: string;  // readonly - non-editable field once assigned
     name: string;
     email: string;
     isActive: boolean;
